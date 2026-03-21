@@ -53,3 +53,14 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Dossiers de compilation (Le plus important)
+Debug/
+Release/
+
+# Fichiers de configuration locale de l'IDE
+.settings/
+.launches/
+
+# Fichiers temporaires de CubeMX
+.mxproject
