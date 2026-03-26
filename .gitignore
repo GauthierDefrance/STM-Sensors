@@ -1,48 +1,46 @@
-# Prerequisites
-*.d
-
-# Object files
+# ================================
+# Fichiers binaires et objets
+# ================================
 *.o
 *.ko
 *.obj
 *.elf
+*.bin
+*.hex
+*.i*86
+*.x86_64
+*.app
+*.out
 
 # Linker output
 *.ilk
 *.map
 *.exp
 
-# Precompiled Headers
+# Précompilés / Headers
 *.gch
 *.pch
 
-# Libraries
+# Bibliothèques
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
+# Fichiers debug
 *.dSYM/
 *.su
 *.idb
 *.pdb
+*.dwo
 
-# Kernel Module Compile Results
+# Kernel modules
 *.mod*
 *.cmd
 .tmp_versions/
@@ -51,16 +49,24 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
-*.dwo
-
-# Dossiers de compilation (Le plus important)
+# ================================
+# Dossiers de build
+# ================================
 Debug/
 Release/
 
-# Fichiers de configuration locale de l'IDE
+# ================================
+# Fichiers de configuration IDE / CubeMX
+# ================================
 .settings/
+.cproject
+.project
+*.launch
+*.mxproject
 .launches/
 
-# Fichiers temporaires de CubeMX
-.mxproject
+# ================================
+# Fichiers de backup / temporaires
+# ================================
+*~
+*.bak
