@@ -1,72 +1,20 @@
-# ================================
-# Fichiers binaires et objets
-# ================================
-*.o
-*.ko
-*.obj
+# Build artifacts
+Debug/
+Release/
 *.elf
 *.bin
 *.hex
-*.i*86
-*.x86_64
-*.app
-*.out
+*.o
+*.d
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Précompilés / Headers
-*.gch
-*.pch
-
-# Bibliothèques
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Fichiers debug
-*.dSYM/
-*.su
-*.idb
-*.pdb
-*.dwo
-
-# Kernel modules
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# ================================
-# Dossiers de build
-# ================================
-Debug/
-Release/
-
-# ================================
-# Fichiers de configuration IDE / CubeMX
-# ================================
+# IDE settings
 .settings/
 .cproject
 .project
-*.launch
-*.mxproject
-.launches/
 
-# ================================
-# Fichiers de backup / temporaires
-# ================================
+# Backup files
 *~
 *.bak
+
+# CubeIDE specific
+*.launch
