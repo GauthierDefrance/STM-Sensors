@@ -73,5 +73,6 @@ Release/
 
 #Idea
 
+.idea/
 .idea/*
 /.idea/*
