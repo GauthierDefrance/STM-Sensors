@@ -76,3 +76,4 @@ Release/
 .idea/
 .idea/*
 /.idea/*
+/Core/Src/.idea
