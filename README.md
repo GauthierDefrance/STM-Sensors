@@ -10,6 +10,7 @@ Cergy Paris Université 2025/2026
 - [Description](#description)
 - [Membre de l'équipe](#membre-de-lequipe)
 - [Matériel requis](#materiel-requis)
+- [Schéma](#schema)
 - [Fonctionnalités](#fonctionnalites)
 - [Fonctionnement](#fonctionnement)
 - [Implémentation logicielle](#implémentation-logicielle)
@@ -59,6 +60,8 @@ Groupe STM Sensors - Groupe C
 
 ---
 
+## Schéma
+![schéma](https://github.com/GauthierDefrance/STM-Sensors.git/image.png)
 
 ## Fonctionnalités
 
